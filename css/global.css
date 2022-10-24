@@ -2,7 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins;
+    font-family: 'Karla';
+}
+body {
+    color: var(--light-gray);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+main {
+    margin-top: 4.5rem;
+    margin-inline: 2rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    color: var(--cyan);
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #fff;
+    margin-bottom: 1.125rem;
+}
